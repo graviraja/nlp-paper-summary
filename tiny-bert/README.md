@@ -53,7 +53,7 @@ They use a pre-trained BERT model (to replace sentence-piece tokens) and GloVe (
     - attention_heads = 12
     - **109M** parameters
 
-Using the proposed techniques enable this TinyBERT model to achieve 96% (76.5 vs 79.5 points average) of its BERT base teacher on the BLUE benchmark while being 7.5x smaller and 9.4x faster!
+Using the proposed techniques enable this TinyBERT model to achieve 96% (76.5 vs 79.5 points average) of its BERT base teacher on the GLUE benchmark while being 7.5x smaller and 9.4x faster!
 
 ![glue](./figs/glue.png)
 
