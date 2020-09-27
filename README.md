@@ -1,7 +1,14 @@
 # nlp-paper-summary
 
-This repo contains the summary of NLP papers.
+This repo contains the summary of following NLP papers.
 
+<table border="0" align="center">
+<tr>
+    <td style="padding:15px;"><a href="#bert-vs-lstm">BERT-vs-LSTM</a></td>
+    <td style="padding:15px;"><a href="#tinybert-distilling-bert-for-natural-language-understanding">TinyBERT</a></td>
+    <td style="padding:15px;"><a href="#albert-a-lite-bert-for-self-supervised-learning-of-language-representations">ALBERT</a></td>
+</tr>
+</table>
 
 ## BERT-vs-LSTM
 
