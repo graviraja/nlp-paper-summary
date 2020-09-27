@@ -20,3 +20,13 @@ This paper talks about:
 TinyBERT is empirically effective and achieves more than **96%** the performance of teacher BERT(base) on GLUE benchmark, while being **7.5x smaller** and **9.4x faster** on inference.
 
 <a href="tiny-bert#tinybert-distilling-bert-for-natural-language-understanding">Checkout the summary here</a>
+
+## ALBERT: A Lite BERT for Self-Supervised Learning of Language Representations
+
+This paper talks about:
+
+#### Increasing model size while pretraining natural language representations often results in improved performance on downstream tasks. However, at some point further model increases become harder due to GPU/TPU memory limitations and longer training times. How to handle these issues?
+
+ALBERT proposes two parameter reduction techniques to lower memory consumption and increase the training speed of BERT. It also proposes a self-supervised loss that focuses on modeling inter-sentence coherence, and show it consistently helps downstream tasks with multi-sentence inputs.
+
+<a href="albert#albert">Checkout the summary here</a>
