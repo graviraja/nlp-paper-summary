@@ -37,3 +37,20 @@ This paper talks about:
 ALBERT proposes two parameter reduction techniques to lower memory consumption and increase the training speed of BERT. It also proposes a self-supervised loss that focuses on modeling inter-sentence coherence, and show it consistently helps downstream tasks with multi-sentence inputs.
 
 <a href="albert#albert">Checkout the summary here</a>
+
+## Poor Man's BERT: Smaller and Faster Transformer Models
+
+This paper talks about: 
+
+#### NLP has recently been dominated by large-scale pre-trained Transformer models, where size does matter. Models such as BERT, XLNet, RoBERTa, etc. are now out of reach for researchers and practitioners without large GPUs/TPUs. How to reduce the model size that do not require model pretraining from scratch?
+
+There are many ways to reduce the size of pre-trained models. Some notable approaches are: 
+
+- Prune parts of the network after training
+- Reduction through weight factorization and sharing (Albert)
+- Compression through knowledge distillation (Distilbert, Tinybert)
+- Quantization (Q-bert)
+
+This work falls under the class of pruning methods.This paper question's whether it is necessary to use all layers of a pre-trained model in downstream tasks and propose straight-forward strategies to drop some layers from the neural network.
+
+<a href="poor-man-bert##poor-mans-bert-smaller-and-faster-transformer-models">Checkout the summary here</a>
