@@ -8,6 +8,7 @@ This repo contains the summary of following NLP papers.
     <td style="padding:15px;"><a href="#tinybert-distilling-bert-for-natural-language-understanding">TinyBERT</a></td>
     <td style="padding:15px;"><a href="#albert-a-lite-bert-for-self-supervised-learning-of-language-representations">ALBERT</a></td>
     <td style="padding:15px;"><a href="#poor-mans-bert-smaller-and-faster-transformer-models">Poor Man's BERT</a></td>
+    <td style="padding:15px;"><a href="#spanbert-improving-pre-training-by-representing-and-predicting-spans">SpanBERT</a></td>
 </tr>
 </table>
 
@@ -54,4 +55,12 @@ There are many ways to reduce the size of pre-trained models. Some notable appro
 
 This work falls under the class of pruning methods.This paper question's whether it is necessary to use all layers of a pre-trained model in downstream tasks and propose straight-forward strategies to drop some layers from the neural network.
 
-<a href="poor-man-bert##poor-mans-bert-smaller-and-faster-transformer-models">Checkout the summary here</a>
+<a href="poor-man-bert#poor-mans-bert-smaller-and-faster-transformer-models">Checkout the summary here</a>
+
+## SpanBERT: Improving Pre-training by Representing and Predicting Spans
+
+This paper talks about:
+
+#### Pre-training objective plays an important role in learning the representations of language. BERT's pretraining objective contains 2 parts: Masked Language Modelling (MLM) and Next Sentence Prediction (NSP). This paper proposes new pre-training obejective which can better encode the sentences.
+
+<a href="span-bert#spanbert">Checkout the summary here</a>
